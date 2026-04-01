@@ -1,0 +1,159 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries1.txt
+budget: 60
+
+NOTES: Testing where goal is larger than sums
+                           of sets
+-----------------------------------------------------
+Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64360 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+60
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 19667 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries1.txt
+budget: 1
+
+NOTES: testing where goal is less than all elements
+-----------------------------------------------------
+
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64407 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+1
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 0 ms : 874666 ns
+Purchased grocery prices are:
+[]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries1.txt
+budget: 58
+
+NOTES: Tested when goal is equal to sum total of
+groceries
+-----------------------------------------------------
+
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=56604 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+58
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 2 ms : 440500 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries2.txt
+budget: 40
+
+NOTES: testing goal equal to total sum for file 2
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=56635 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[4.5, 2.0, 1.5, 5.5, 6.5, 6.0, 3.0, 11.0]
+
+Enter your budget:
+ 40
+Invalid input  40
+Enter a numeric value for the budget.
+
+Enter your budget:
+40
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 697875 ns
+Purchased grocery prices are:
+[4.5, 2.0, 1.5, 5.5, 6.5, 6.0, 3.0, 11.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries2.txt
+budget: 12
+
+NOTES: goal bigger than individual grocery
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=56657 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[4.5, 2.0, 1.5, 5.5, 6.5, 6.0, 3.0, 11.0]
+
+Enter your budget:
+12
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 132916 ns
+Purchased grocery prices are:
+[4.5, 2.0, 5.5]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries2.txt
+budget: 11
+
+NOTES: checking if it returns first found
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=56681 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[4.5, 2.0, 1.5, 5.5, 6.5, 6.0, 3.0, 11.0]
+
+Enter your budget:
+11
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 0 ms : 621000 ns
+Purchased grocery prices are:
+[4.5, 6.5]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/groceries2.txt
+budget: 50
+
+NOTES: goal bigger than total
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=57071 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project02/out/production/claramanolache-cs1c-project02:/Users/claramanolache/claramanolache-cs1c-project02/lib/json-simple-1.1.1.jar subsetsum.ShoppingBag
+The list of groceries has 8 items.
+Groceries wanted:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0, 8.0]
+
+Enter your budget:
+50
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 1 ms : 464166 ns
+Purchased grocery prices are:
+[2.5, 4.0, 11.5, 7.0, 15.0, 4.0, 6.0]
+Done with ShoppingBag.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------

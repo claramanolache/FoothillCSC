@@ -1,0 +1,81 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/destinations.txt
+
+Searching for: sa
+NOTES: Base test; should find four matches
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49303 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project06/out/production/claramanolache-cs1c-project06 assistant.SearchDestination
+Word is: San Francisco
+Description: San Francisco is known for its Golden Gate Bridge.
+
+Word is: Santa Clara
+Description: Santa Clara sits at the heart of Silicon Valley.
+
+Word is: San Jose
+Description: San Jose is California's oldest settlement founded in 1777.
+
+Word is: Santa Maria
+Description: Santa Maria was the location of fictional Zorro.
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/destinations.txt
+
+Searching for: SA
+NOTES: checks for case sensitivity; should find the same four matches as before
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49303 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project06/out/production/claramanolache-cs1c-project06 assistant.SearchDestination
+Word is: San Francisco
+Description: San Francisco is known for its Golden Gate Bridge.
+
+Word is: Santa Clara
+Description: Santa Clara sits at the heart of Silicon Valley.
+
+Word is: San Jose
+Description: San Jose is California's oldest settlement founded in 1777.
+
+Word is: Santa Maria
+Description: Santa Maria was the location of fictional Zorro.
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/destinations.txt
+
+Searching for: Clara
+NOTES: should find no match
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49303 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project06/out/production/claramanolache-cs1c-project06 assistant.SearchDestination
+[No results found.]
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/friendsAndPlaces.txt
+
+Searching for: Clara
+NOTES: should find me (base to see if this file is working)
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49393 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project06/out/production/claramanolache-cs1c-project06 assistant.SearchDestination
+Word is: Clara Manolache
+Description: My name is Clara Manolache, I am a junior at Palo Alto Senior High School! I love coding and reading
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/friendsAndPlaces.txt
+
+Searching for: _Clara
+NOTES: Space before my name should not affect search results; should still find me
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49393 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project06/out/production/claramanolache-cs1c-project06 assistant.SearchDestination
+Word is: Clara Manolache
+Description: My name is Clara Manolache, I am a junior at Palo Alto Senior High School! I love coding and reading
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/friendsAndPlaces.txt
+
+Searching for: An
+NOTES: should not find anyone
+-----------------------------------------------------
+/Users/claramanolache/Library/Java/JavaVirtualMachines/openjdk-25.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49393 -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/claramanolache/claramanolache-cs1c-project06/out/production/claramanolache-cs1c-project06 assistant.SearchDestination
+[No results found.]
+
+
+
+
+

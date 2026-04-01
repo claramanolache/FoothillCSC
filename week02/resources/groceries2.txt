@@ -1,0 +1,8 @@
+arugula,4.50
+cabage,2
+cosmic crisp,1.50
+yogurt,5.50
+granola,6.50
+eggs,6
+oatmeal,3
+pasta,11

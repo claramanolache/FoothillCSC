@@ -1,0 +1,6 @@
+Comment:
+Optimal runtime (runtime is lowest across the curves) is between 100 and 120. There seems to be a slight decrease in
+runtime in this region, however it may be the scaling causing the difference to seem insignificant. After 150 runtime
+seems to flatten out and even increase slightly. This may be due to the fact that the algorithm is not able to take
+advantage of the additional threads and is instead spending more time on overhead. Before 100, there are spikes in runtime,
+which is not optimal.
